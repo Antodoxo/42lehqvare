@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                       :::      ::::::::    */
-/*   libft.h                                           :+:      :+:    :+:    */
-/*                                                   +:+ +:+         +:+      */
-/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
-/*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/11/03 08:55:55 by username         #+#    #+#              */
-/*   Updated: 2026/11/03 10:18:20 by username        ###   ########.fr        */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: q <q@student.42.fr>                        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/11/03 08:55:55 by username          #+#    #+#             */
+/*   Updated: 2026/11/04 07:28:42 by q                ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,12 @@ void	*ft_memmove(void *d, const void *s, size_t n);
 size_t	ft_strlcpy(char *d, const char *s, size_t n);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+size_t	ft_strlcat(char *d, const char *s, size_t n);
+char	*ft_strchr(const char *s, int c);
+char	*ft_strrchr(const char *s, int c);
+
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
+
+int	ft_memcmp(const void *s1, const void *s2, size_t n);
 #endif
